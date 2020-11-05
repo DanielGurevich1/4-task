@@ -1,0 +1,64 @@
+body {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc( (100% - 800px) / 2 );
+}
+.mblur
+    {
+        display: inline-block;
+      position:absolute;
+      top: 0px;
+      left: 10px;
+      z-index: 1;
+    }
+    .mc
+    {
+        display: inline-block;
+      position:absolute;
+      top: 80px;
+      left: 100px;
+      z-index: 2;
+      width: 600px;
+      height: 450px;
+    }
+form { 
+    display: inline-block;
+    position:absolute;
+    z-index: 3;
+    color: lightgray;
+    height: 450px;
+    width: 250px;
+    padding: 12px 40px;
+    border-radius: 0;
+    background-color: white;
+    margin-top: 10px;
+}
+    input {
+        display: inline-block;
+        border: none;
+        padding: 12px;
+        color: lightslategrey;
+        border-bottom: 2px solid gainsboro;
+        margin-top: 40px;
+      }
+    
+
+link {
+    display: inline-block;
+    position:absolute;
+    z-index: 3;
+    margin-top: 80px;
+}
+
+div {
+    display: inline-block;
+}
+    h1 {
+        display: inline-block;
+        margin-left: 30%;
+    }
+    link {
+        display: inline-block;
+        margin-left: 30%;
+    }
+    
