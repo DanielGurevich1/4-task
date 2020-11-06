@@ -16,7 +16,7 @@ conteiner{
     {
       display: inline-block;
       position:absolute;
-      top: 190px;
+      top: 200px;
       left: 15%;
       z-index: 2;
       width: 950px;
@@ -35,19 +35,22 @@ form {
     margin-left: 425px;
     
 }
+
 form>*{
 
-    padding: 20px 40px;
+    padding: 15px 30px;
     display: block;
+    width: 60%;
+    border: none;
+    
+    margin-top: 20px;
+    margin-left: 15%;
+    text-align: left;
+    
 }
-    input {
-        display: inline-block;
-        border: none;
-        padding: 12px;
-        color: lightslategrey;
-        border-bottom: 2px solid gainsboro;
-        margin-top: 40px;
-      }
+form>input {
+    border-bottom: 2px solid gainsboro;
+}
 
     h1 {
         margin-left: 2%;
@@ -66,4 +69,18 @@ form>*{
         font-size: 24px;
         color: whitesmoke;
     }
+    button {
+        background-color: blue;
+        border-radius: 30px;
+        width: 30%
+
+    }
+    a1 {
+        display: inline-block;
+        font-size: 16px;
+        color: blue;
+        z-index: 5;
+        width: 30%;
+    }
+    
     
