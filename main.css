@@ -1,37 +1,44 @@
-body {
+conteiner{
     display: inline-block;
-    width: 800px;
-    margin-left: calc( (100% - 800px) / 2 );
+    width: 1100px;
+    margin-left: calc( (100% - 900px) / 2 );
 }
 .mblur
     {
         display: inline-block;
       position:absolute;
       top: 0px;
-      left: 10px;
-      z-index: 1;
+      /* left: 0%; 
+       z-index: 1; */
+      width: 100%;
     }
     .mc
     {
         display: inline-block;
       position:absolute;
-      top: 80px;
-      left: 100px;
+      top: 190px;
+      left: 15%;
       z-index: 2;
-      width: 600px;
-      height: 450px;
+      width: 900px;
+      height: 700px;
+      border-image: round;
     }
 form { 
     display: inline-block;
-    position:absolute;
+    position: absolute;
     z-index: 3;
     color: lightgray;
-    height: 450px;
-    width: 250px;
-    padding: 12px 40px;
-    border-radius: 0;
+    height: 740px;
+    width: 720px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 150px;
+    margin-left: 425px;
+    
+}
+form>*{
+
+    padding: 20px 40px;
+    display: block;
 }
     input {
         display: inline-block;
@@ -55,10 +62,15 @@ div {
 }
     h1 {
         display: inline-block;
-        margin-left: 30%;
+        margin-left: 0%;
+        margin-top: 10%;
+        position:absolute;
+        z-index: 3;
+        font-size: 34px;
+        
     }
     link {
         display: inline-block;
-        margin-left: 30%;
+        margin-left: 0%;
     }
     
